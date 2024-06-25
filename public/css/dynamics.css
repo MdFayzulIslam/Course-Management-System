@@ -1,0 +1,28 @@
+ *{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Lato",sans-serif;
+    font-weight: 400;
+    background-color:rgb(247, 243, 243);
+    padding:30px;
+}
+
+.flex-container{
+  display: flex;
+  justify-content: space-around; 
+  margin-top: 25px;
+}
+.heading{
+  margin-top: 25px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.text_center{
+  text-align: center;
+}
+.line_space{
+  margin-top: 15px;
+}

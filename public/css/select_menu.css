@@ -1,0 +1,28 @@
+body{
+    background-image: linear-gradient(to right,#7ed56f,#28b485);
+}
+.center{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.menu-list{
+    list-style: none;
+    transition: all;
+}
+.menu-list-item{
+    font-size: 35px;
+    font-weight: 400;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    padding: 20px;
+}
+li a{
+    text-decoration: none;
+    color: #333;
+}
+li a:hover{
+    background-color: white;
+    transform: translateY(-1rem) scale(1);
+}

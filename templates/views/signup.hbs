@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/signup.css">
+</head>
+<body>
+    {{>header}}
+
+    <div class="wrapper">
+        <p class="heading">Sign Up</p>
+        <form action="/signup" method="post">
+        <input type="text" class="space" placeholder="Username" name="username"required>
+        <input type="email" class="space" placeholder="Email" name="email"required>
+        <input type="password" class="space" placeholder="Password" name="password"required>
+        <input type="password" class="space" placeholder="Comfirm Password" name="con_password"required>
+        <a href=""><button type="submit" class="submit-btn">Submit</button></a>
+        </form>
+    </div>
+
+    
+</body>
+</html>

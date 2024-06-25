@@ -1,0 +1,11 @@
+footer{
+    width: 100%;
+    text-align: center;
+    padding: 3px;
+    background-color: darksalmon;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
